@@ -1,0 +1,3 @@
+/home/rafael-victus/ROS2-Humble-for-Beginner/02-TUTORIALS/002-DEVELOPMENT/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:msg/Num.idl
+/home/rafael-victus/ROS2-Humble-for-Beginner/02-TUTORIALS/002-DEVELOPMENT/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:msg/Sphere.idl
+/home/rafael-victus/ROS2-Humble-for-Beginner/02-TUTORIALS/002-DEVELOPMENT/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:srv/AddThreeInts.idl

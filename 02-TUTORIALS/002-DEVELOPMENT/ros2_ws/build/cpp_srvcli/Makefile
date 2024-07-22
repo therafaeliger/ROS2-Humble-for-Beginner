@@ -197,6 +197,80 @@ cpp_srvcli_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_srvcli_uninstall.dir/build.make CMakeFiles/cpp_srvcli_uninstall.dir/build
 .PHONY : cpp_srvcli_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named server
+
+# Build rule for target.
+server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 server
+.PHONY : server
+
+# fast build rule for target.
+server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
+.PHONY : server/fast
+
+#=============================================================================
+# Target rules for targets named client
+
+# Build rule for target.
+client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 client
+.PHONY : client
+
+# fast build rule for target.
+client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/build
+.PHONY : client/fast
+
+src/add_two_ints_client.o: src/add_two_ints_client.cpp.o
+.PHONY : src/add_two_ints_client.o
+
+# target to build an object file
+src/add_two_ints_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/add_two_ints_client.cpp.o
+.PHONY : src/add_two_ints_client.cpp.o
+
+src/add_two_ints_client.i: src/add_two_ints_client.cpp.i
+.PHONY : src/add_two_ints_client.i
+
+# target to preprocess a source file
+src/add_two_ints_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/add_two_ints_client.cpp.i
+.PHONY : src/add_two_ints_client.cpp.i
+
+src/add_two_ints_client.s: src/add_two_ints_client.cpp.s
+.PHONY : src/add_two_ints_client.s
+
+# target to generate assembly for a file
+src/add_two_ints_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/add_two_ints_client.cpp.s
+.PHONY : src/add_two_ints_client.cpp.s
+
+src/add_two_ints_server.o: src/add_two_ints_server.cpp.o
+.PHONY : src/add_two_ints_server.o
+
+# target to build an object file
+src/add_two_ints_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/add_two_ints_server.cpp.o
+.PHONY : src/add_two_ints_server.cpp.o
+
+src/add_two_ints_server.i: src/add_two_ints_server.cpp.i
+.PHONY : src/add_two_ints_server.i
+
+# target to preprocess a source file
+src/add_two_ints_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/add_two_ints_server.cpp.i
+.PHONY : src/add_two_ints_server.cpp.i
+
+src/add_two_ints_server.s: src/add_two_ints_server.cpp.s
+.PHONY : src/add_two_ints_server.s
+
+# target to generate assembly for a file
+src/add_two_ints_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/add_two_ints_server.cpp.s
+.PHONY : src/add_two_ints_server.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +286,14 @@ help:
 	@echo "... test"
 	@echo "... cpp_srvcli_uninstall"
 	@echo "... uninstall"
+	@echo "... client"
+	@echo "... server"
+	@echo "... src/add_two_ints_client.o"
+	@echo "... src/add_two_ints_client.i"
+	@echo "... src/add_two_ints_client.s"
+	@echo "... src/add_two_ints_server.o"
+	@echo "... src/add_two_ints_server.i"
+	@echo "... src/add_two_ints_server.s"
 .PHONY : help
 
 

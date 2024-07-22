@@ -447,3 +447,55 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/rafael-victus/ROS2-Humble-for-Beginner/02-TUTORIALS/002-DEVELOPMENT/ros2_ws/build/cpp_srvcli/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b7508/fast && gmake[1]: Entering directory '/home/rafael-victus/ROS2-Humble-for-Beginner/02-TUTORIALS/002-DEVELOPMENT/ros2_ws/build/cpp_srvcli/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_b7508.dir/build.make CMakeFiles/cmTC_b7508.dir/build
+gmake[2]: Entering directory '/home/rafael-victus/ROS2-Humble-for-Beginner/02-TUTORIALS/002-DEVELOPMENT/ros2_ws/build/cpp_srvcli/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7508.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b7508.dir/CheckIncludeFile.c.o -c /home/rafael-victus/ROS2-Humble-for-Beginner/02-TUTORIALS/002-DEVELOPMENT/ros2_ws/build/cpp_srvcli/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b7508
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7508.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_b7508.dir/CheckIncludeFile.c.o -o cmTC_b7508 
+gmake[2]: Leaving directory '/home/rafael-victus/ROS2-Humble-for-Beginner/02-TUTORIALS/002-DEVELOPMENT/ros2_ws/build/cpp_srvcli/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/rafael-victus/ROS2-Humble-for-Beginner/02-TUTORIALS/002-DEVELOPMENT/ros2_ws/build/cpp_srvcli/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/rafael-victus/ROS2-Humble-for-Beginner/02-TUTORIALS/002-DEVELOPMENT/ros2_ws/build/cpp_srvcli/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a4a5e/fast && gmake[1]: Entering directory '/home/rafael-victus/ROS2-Humble-for-Beginner/02-TUTORIALS/002-DEVELOPMENT/ros2_ws/build/cpp_srvcli/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_a4a5e.dir/build.make CMakeFiles/cmTC_a4a5e.dir/build
+gmake[2]: Entering directory '/home/rafael-victus/ROS2-Humble-for-Beginner/02-TUTORIALS/002-DEVELOPMENT/ros2_ws/build/cpp_srvcli/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a4a5e.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_a4a5e.dir/src.c.o -c /home/rafael-victus/ROS2-Humble-for-Beginner/02-TUTORIALS/002-DEVELOPMENT/ros2_ws/build/cpp_srvcli/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a4a5e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4a5e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_a4a5e.dir/src.c.o -o cmTC_a4a5e 
+gmake[2]: Leaving directory '/home/rafael-victus/ROS2-Humble-for-Beginner/02-TUTORIALS/002-DEVELOPMENT/ros2_ws/build/cpp_srvcli/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/rafael-victus/ROS2-Humble-for-Beginner/02-TUTORIALS/002-DEVELOPMENT/ros2_ws/build/cpp_srvcli/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
