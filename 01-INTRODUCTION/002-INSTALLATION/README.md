@@ -2,8 +2,8 @@
 
 ## Install ROS on Ubuntu (Debian Packages)
 * System Requirements
-    * Ubuntu Linux - Jammy (22.04) 64-bit
-    * At least 5GB free space
+    1. Ubuntu Linux - Jammy (22.04) 64-bit
+    2. At least 5GB free space
 
 ### 1. Locale Configuration
 ```bash
@@ -57,7 +57,7 @@ echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc # just once
 ros2
 ```
 
-### 9. Additional Setup (colcon build)
+### 9. Additional Setup (Colcon Build)
 ```bash
 sudo apt install python3-colcon-common-extensions
 echo "source /usr/share/colcon_cd/function/colcon_cd.sh" >> ~/.bashrc

@@ -1,7 +1,52 @@
 # Introduction to ROS
 
-## EXE
-## RQt
+## Running Executables
+List of Packages
+```bash
+ros2 pkg list
+```
+List of <packages, executables>
+```bash
+ros2 pkg executables
+```
+Run Node or Executable
+```bash
+ros2 run <package_name> <executable_name>
+```
+
+## Turtlesim
+```bash
+# Install Turtlesim
+sudo apt update
+sudo apt install ros-humble-turtlesim
+
+# Run Turtlesim
+ros2 run turtlesim turtlesim_node
+ros2 run turtlesim turtle_teleop_key
+```
+1. Move the turtle using keyboard teleoperation
+
+## RQt as GUI Interface for ROS
+```bash
+# Install RQt
+sudo apt update
+sudo apt install '~nros-humble-rqt*'
+
+# Run RQt
+rqt
+```
+1. Spawn a turtle in RQt
+    * Plugins => Services => Service Caller
+    * Under Service drop down, choose /spawn
+    * Enter x, y position and click "Call"
+2. Edit turtle path color
+    * Under Service drop down, choose /turtle1/set_pen
+    * Modify "r" value to 255 and click "Call"
+    * Move the turtle
+3. Change the teleoperation for new turtle
+    ```bash
+    ros2 run turtlesim turtle_teleop_key --ros-args --remap turtle1/cmd_vel:=turtle2/cmd_vel
+    ```
 
 ## ROS Basic Knowledge
 Here is an explanation of the core concepts in ROS:
