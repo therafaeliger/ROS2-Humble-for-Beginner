@@ -55,5 +55,5 @@ In summary, a ROS Workspace is an environment that contains and organizes your R
 
 
 # PLAN!!! (nnt dihapus)
-Tutor Content: pub-sub (v), server-client (v), interfaces, params, plugins, actions, launch
-Next: TF2, urdf, RViz2, Gazebo, SLAM TOOLBOX, NAVIGATION STACK, OpenCV
+### Tutor Content: pub-sub (v), server-client (v), interfaces (v), params, plugins, actions, launch file
+### Next: TF2, urdf, RViz2, Gazebo, SLAM TOOLBOX, NAVIGATION STACK, OpenCV
