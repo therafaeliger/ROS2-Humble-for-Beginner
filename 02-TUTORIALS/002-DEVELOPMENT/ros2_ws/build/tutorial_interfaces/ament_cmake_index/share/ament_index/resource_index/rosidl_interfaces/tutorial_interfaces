@@ -1,3 +1,5 @@
+action/Fibonacci.action
+action/Fibonacci.idl
 msg/Num.idl
 msg/Num.msg
 msg/Sphere.idl

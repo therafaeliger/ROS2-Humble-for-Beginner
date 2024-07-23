@@ -10,7 +10,7 @@ ROS, or Robot Operating System, is an open-source framework for robot software d
 * Community: ROS has a large, active community that contributes to a vast ecosystem of software and support.
 * Overall, ROS simplifies the task of developing complex and robust robot software.
 
-## What's ROS used for?
+## What is ROS used for?
 ROS (Robot Operating System) is used for a wide range of applications in robotics, providing a flexible framework for writing robot software. Here are some common uses:
 * Research and Development: ROS is widely used in academia and research institutions for developing and testing new algorithms, conducting experiments, and validating theories in robotics.
 * Industrial Automation: ROS is used in various industrial applications, including automated warehouses, manufacturing, and assembly lines, where it helps in coordinating and controlling robotic systems.

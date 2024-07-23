@@ -1,3 +1,1 @@
-# generated from ament_package/template/environment_hook/pythonpath.sh.in
-
-ament_prepend_unique_value PYTHONPATH "$AMENT_CURRENT_PREFIX/local/lib/python3.10/dist-packages"
+/home/rafael-victus/ROS2-Humble-for-Beginner/02-TUTORIALS/002-DEVELOPMENT/ros2_ws/build/tutorial_interfaces/ament_cmake_environment_hooks/pythonpath.sh

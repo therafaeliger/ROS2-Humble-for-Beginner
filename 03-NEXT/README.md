@@ -77,7 +77,6 @@ If you’re a beginner in ROS (Robot Operating System) development, there are se
 3. **Use Simulation and Real-Time Features**: Integrate your ROS2 system with Gazebo for simulation and experiment with real-time features to understand their impact on your robot’s performance.
 By following these steps, you’ll build a strong foundation in ROS2 development and gain the skills needed to tackle more complex robotic systems and applications.
 
-
 ## ROS2 Humble Advance Features and Plugins
 ### 1. **micro-ROS**
 - **Purpose**: micro-ROS extends ROS2 to resource-constrained devices, such as microcontrollers. It enables the integration of small, low-power devices with ROS2 systems.

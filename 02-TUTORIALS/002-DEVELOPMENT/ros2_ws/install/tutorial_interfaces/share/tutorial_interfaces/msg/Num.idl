@@ -1,12 +1,1 @@
-// generated from rosidl_adapter/resource/msg.idl.em
-// with input from tutorial_interfaces/msg/Num.msg
-// generated code does not contain a copyright notice
-
-
-module tutorial_interfaces {
-  module msg {
-    struct Num {
-      int64 num;
-    };
-  };
-};
+/home/rafael-victus/ROS2-Humble-for-Beginner/02-TUTORIALS/002-DEVELOPMENT/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces/msg/Num.idl

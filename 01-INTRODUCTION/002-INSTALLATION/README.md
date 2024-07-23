@@ -2,8 +2,9 @@
 
 ## Install ROS on Ubuntu (Debian Packages)
 * System Requirements
-    1. Ubuntu Linux - Jammy (22.04) 64-bit
+    1. Linux Ubuntu - Jammy Jellyfish (22.04 LTS) 64-bit
     2. At least 5GB free space
+* ROS2 Humble Documentation: https://docs.ros.org/en/humble/Installation.html
 
 ### 1. Locale Configuration
 ```bash

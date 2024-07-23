@@ -1,1 +1,1 @@
-from tutorial_interfaces.srv._add_three_ints import AddThreeInts  # noqa: F401
+/home/rafael-victus/ROS2-Humble-for-Beginner/02-TUTORIALS/002-DEVELOPMENT/ros2_ws/build/tutorial_interfaces/rosidl_generator_py/tutorial_interfaces/srv/__init__.py

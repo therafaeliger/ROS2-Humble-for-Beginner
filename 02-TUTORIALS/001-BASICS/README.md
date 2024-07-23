@@ -34,15 +34,15 @@ sudo apt install '~nros-humble-rqt*'
 # Run RQt
 rqt
 ```
-### 1. Spawn a turtle in RQt
+1. Spawn a turtle in RQt
     * Plugins => Services => Service Caller
     * Under Service drop down, choose /spawn
     * Enter x, y position and click "Call"
-### 2. Edit turtle path color
+2. Edit turtle path color
     * Under Service drop down, choose /turtle1/set_pen
     * Modify "r" value to 255 and click "Call"
     * Move the turtle
-### 3. Change the teleoperation for new turtle
+3. Change the teleoperation for new turtle
     ```bash
     ros2 run turtlesim turtle_teleop_key --ros-args --remap turtle1/cmd_vel:=turtle2/cmd_vel
     ```

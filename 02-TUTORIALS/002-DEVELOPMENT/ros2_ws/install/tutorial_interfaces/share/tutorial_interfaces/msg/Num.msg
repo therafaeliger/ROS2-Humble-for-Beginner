@@ -1,1 +1,1 @@
-int64 num
+/home/rafael-victus/ROS2-Humble-for-Beginner/02-TUTORIALS/002-DEVELOPMENT/ros2_ws/src/tutorial_interfaces/msg/Num.msg

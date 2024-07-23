@@ -1,2 +1,1 @@
-geometry_msgs/Point center
-float64 radius
+/home/rafael-victus/ROS2-Humble-for-Beginner/02-TUTORIALS/002-DEVELOPMENT/ros2_ws/src/tutorial_interfaces/msg/Sphere.msg

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/action/detail/fibonacci__functions.c.o"
+  "CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/action/detail/fibonacci__functions.c.o.d"
   "CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o"
   "CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o.d"
   "CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__functions.c.o"
@@ -7,6 +9,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__functions.c.o.d"
   "libtutorial_interfaces__rosidl_generator_c.pdb"
   "libtutorial_interfaces__rosidl_generator_c.so"
+  "rosidl_generator_c/tutorial_interfaces/action/detail/fibonacci__functions.c"
+  "rosidl_generator_c/tutorial_interfaces/action/detail/fibonacci__functions.h"
+  "rosidl_generator_c/tutorial_interfaces/action/detail/fibonacci__struct.h"
+  "rosidl_generator_c/tutorial_interfaces/action/detail/fibonacci__type_support.h"
+  "rosidl_generator_c/tutorial_interfaces/action/fibonacci.h"
   "rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c"
   "rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.h"
   "rosidl_generator_c/tutorial_interfaces/msg/detail/num__struct.h"

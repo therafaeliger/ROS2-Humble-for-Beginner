@@ -13,7 +13,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Num.msg"
   "msg/Sphere.msg"
   "srv/AddThreeInts.srv"
-  DEPENDENCIES geometry_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
+  "action/Fibonacci.action"
+  DEPENDENCIES geometry_msgs
 )
 
 if(BUILD_TESTING)

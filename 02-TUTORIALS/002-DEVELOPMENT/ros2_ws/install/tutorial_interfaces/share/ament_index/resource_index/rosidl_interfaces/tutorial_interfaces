@@ -1,8 +1,1 @@
-msg/Num.idl
-msg/Num.msg
-msg/Sphere.idl
-msg/Sphere.msg
-srv/AddThreeInts.idl
-srv/AddThreeInts.srv
-srv/AddThreeInts_Request.msg
-srv/AddThreeInts_Response.msg
+/home/rafael-victus/ROS2-Humble-for-Beginner/02-TUTORIALS/002-DEVELOPMENT/ros2_ws/build/tutorial_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
