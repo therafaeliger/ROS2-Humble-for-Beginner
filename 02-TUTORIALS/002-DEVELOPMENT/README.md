@@ -26,10 +26,10 @@ Creating and Using a ROS Workspace
 ```bash
 # Create a Workspace
 mkdir -p ~/ros2_ws/src
-cd ~/ros2_ws --symlink-install
+cd ~/ros2_ws
 
 # Build Package:
-colcon build
+colcon build --symlink-install
 
 # Source the Workspace:
 source install/setup.bash
@@ -45,7 +45,7 @@ ros2 pkg create --build-type ament_cmake <package_name>
 cd ~/ros2_ws
 
 # Build Package:
-colcon build --packages-select <package_nam>
+colcon build --packages-select <package_name>
 
 # Source the Workspace:
 source install/setup.bash
